@@ -72,20 +72,18 @@ p {
 }
 
 .nav {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: 2rem;
     align-items: center;
-    justify-content: space-between;
     padding: 1rem 2rem;
     max-width: 1200px;
     margin: 0 auto;
-    position: relative;
     height: 70px;
 }
 
 .nav-brand {
-    position: absolute;
-    left: 2rem;
-    flex: 0 0 auto;
+    grid-column: 1;
 }
 
 .nav-brand .brand-link {
@@ -97,11 +95,11 @@ p {
 }
 
 .nav-menu {
+    grid-column: 2;
     display: flex;
     list-style: none;
     gap: 2rem;
     align-items: center;
-    flex: 1;
     justify-content: center;
     margin: 0;
     padding: 0;
@@ -148,19 +146,13 @@ p {
 /* Mobile responsive design */
 @media (max-width: 768px) {
     .nav {
+        grid-template-columns: 1fr auto auto;
         padding: 1rem;
-        justify-content: space-between;
-    }
-    
-    .nav-brand {
-        position: static;
-        left: auto;
+        gap: 1rem;
     }
     
     .mobile-menu-toggle {
-        position: fixed;
-        right: 1rem;
-        top: 1.5rem;
+        grid-column: 3;
         display: flex;
     }
     
@@ -232,10 +224,7 @@ p {
 }
 
 .nav .cta-button.primary {
-    position: absolute;
-    right: 2rem;
-    bottom: 1rem;
-    z-index: 1001;
+    grid-column: 3;
 }
 
 .nav-link {
