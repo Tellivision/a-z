@@ -114,7 +114,7 @@ p {
 }
 
 .nav .cta-button.primary {
-    margin-left: 6rem !important;
+    margin-left: auto !important;
 }
 
 .cta-button.nav-cta {
@@ -226,7 +226,7 @@ p {
     background: linear-gradient(135deg, #00d4ff, #8b5cf6);
     color: #ffffff;
     box-shadow: 0 4px 20px rgba(0, 212, 255, 0.3);
-    margin-left: 6rem !important;
+    margin-left: auto !important;
 }
 
 .cta-button.primary:hover {
