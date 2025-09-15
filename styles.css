@@ -80,8 +80,6 @@ p {
     max-width: 1200px;
     margin: 0 auto;
     height: 70px;
-    position: relative;
-    z-index: 1000;
 }
 
 .nav-brand {
@@ -105,7 +103,7 @@ p {
     justify-content: center;
     margin: 0;
     padding: 0;
-    transition: all 0.3s ease;
+    transition: transform 0.3s ease;
 }
 
 /* Mobile Menu Toggle */
@@ -151,7 +149,6 @@ p {
         grid-template-columns: 1fr auto auto;
         padding: 1rem;
         gap: 1rem;
-        position: relative;
     }
     
     .mobile-menu-toggle {
@@ -228,10 +225,6 @@ p {
 
 .nav .cta-button.primary {
     grid-column: 3;
-    position: absolute;
-    right: 2rem;
-    top: 50%;
-    transform: translateY(-50%);
 }
 
 .nav-link {
