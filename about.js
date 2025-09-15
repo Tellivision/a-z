@@ -385,12 +385,14 @@ aboutStyles.textContent = `
         opacity: 0;
         transform: translateY(30px);
         transition: all 0.6s ease;
+        height: 100%;
     }
     
     .mission-card.visible,
     .vision-card.visible {
         opacity: 1;
         transform: translateY(0);
+        height: 100%;
     }
 `;
 document.head.appendChild(aboutStyles);
