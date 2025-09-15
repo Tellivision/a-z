@@ -203,11 +203,23 @@
     text-align: center;
     min-width: 0;
     box-sizing: border-box;
+    margin: 0;
+    position: relative;
+    top: 0;
 }
 
 .method-link:hover {
     transform: translateY(-3px);
     box-shadow: 0 10px 20px rgba(0, 212, 255, 0.4);
+}
+
+/* Specific override for button elements to ensure alignment */
+button.method-link {
+    margin: 0;
+    padding: 0.75rem 1.5rem;
+    vertical-align: top;
+    display: inline-block;
+    position: static;
 }
 
 /* Contact Form Section */
