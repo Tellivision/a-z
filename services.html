@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Services | A-Z AI - Advanced AI Solutions</title>
+    <meta name="description" content="Explore our comprehensive AI services including Machine Learning, Natural Language Processing, Computer Vision, and AI Automation solutions.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="services.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Sticky Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <a href="index.html" class="brand-link">A-Z AI</a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="services.html" class="nav-link active">Services</a></li>
+                <li><a href="case-studies.html" class="nav-link">Case Studies</a></li>
+                <li><a href="blog.html" class="nav-link">Insights</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <a href="contact.html" class="cta-button primary">Book a Call</a>
+            <div class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Services Hero Section -->
+    <section class="services-hero">
+        <div class="floating-elements">
+            <div class="element element-1"></div>
+            <div class="element element-2"></div>
+            <div class="element element-3"></div>
+            <div class="element element-4"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="title-line">Advanced AI Solutions</span>
+                    <span class="title-line">for Every Business Need</span>
+                </h1>
+                <p class="hero-subtitle">
+                    From machine learning to automation, we deliver cutting-edge AI technologies 
+                    that transform your business operations and drive unprecedented growth.
+                </p>
+                <div class="hero-cta">
+                    <a href="#services-overview" class="cta-button primary">Explore Services</a>
+                    <a href="contact.html" class="cta-button secondary">Get Custom Quote</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Overview -->
+    <section id="services-overview" class="services-overview">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our AI Services Portfolio</h2>
+                <p class="section-subtitle">
+                    Comprehensive AI solutions designed to revolutionize your industry
+                </p>
+            </div>
+            
+            <div class="services-grid">
+                <!-- Machine Learning Service -->
+                <div class="service-card" data-service="ml">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 100 100" class="animated-icon">
+                            <circle cx="50" cy="50" r="40" class="icon-circle"/>
+                            <path d="M30 50 L45 35 L55 45 L70 30" class="icon-path"/>
+                            <circle cx="30" cy="50" r="3" class="icon-dot"/>
+                            <circle cx="45" cy="35" r="3" class="icon-dot"/>
+                            <circle cx="55" cy="45" r="3" class="icon-dot"/>
+                            <circle cx="70" cy="30" r="3" class="icon-dot"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Machine Learning</h3>
+                    <p class="service-description">
+                        Custom ML models that learn from your data to predict trends, 
+                        automate decisions, and optimize business processes.
+                    </p>
+                    <ul class="service-features">
+                        <li>Predictive Analytics</li>
+                        <li>Recommendation Systems</li>
+                        <li>Anomaly Detection</li>
+                        <li>Custom Model Development</li>
+                    </ul>
+                    <a href="#ml-details" class="service-link">Learn More</a>
+                </div>
+
+                <!-- Natural Language Processing -->
+                <div class="service-card" data-service="nlp">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 100 100" class="animated-icon">
+                            <rect x="20" y="30" width="60" height="40" rx="5" class="icon-rect"/>
+                            <line x1="30" y1="40" x2="70" y2="40" class="icon-line"/>
+                            <line x1="30" y1="50" x2="60" y2="50" class="icon-line"/>
+                            <line x1="30" y1="60" x2="65" y2="60" class="icon-line"/>
+                            <circle cx="75" cy="25" r="8" class="icon-bubble"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Natural Language Processing</h3>
+                    <p class="service-description">
+                        Advanced NLP solutions that understand, interpret, and generate 
+                        human language for intelligent automation.
+                    </p>
+                    <ul class="service-features">
+                        <li>Chatbots & Virtual Assistants</li>
+                        <li>Sentiment Analysis</li>
+                        <li>Document Processing</li>
+                        <li>Language Translation</li>
+                    </ul>
+                    <a href="#nlp-details" class="service-link">Learn More</a>
+                </div>
+
+                <!-- Computer Vision -->
+                <div class="service-card" data-service="cv">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 100 100" class="animated-icon">
+                            <circle cx="50" cy="50" r="35" class="icon-eye"/>
+                            <circle cx="50" cy="50" r="20" class="icon-pupil"/>
+                            <circle cx="50" cy="50" r="8" class="icon-center"/>
+                            <path d="M20 20 L35 35 M80 20 L65 35 M20 80 L35 65 M80 80 L65 65" class="icon-corners"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Computer Vision</h3>
+                    <p class="service-description">
+                        Intelligent image and video analysis systems that see, understand, 
+                        and interpret visual data with superhuman accuracy.
+                    </p>
+                    <ul class="service-features">
+                        <li>Object Detection & Recognition</li>
+                        <li>Facial Recognition</li>
+                        <li>Quality Control Systems</li>
+                        <li>Medical Image Analysis</li>
+                    </ul>
+                    <a href="#cv-details" class="service-link">Learn More</a>
+                </div>
+
+                <!-- AI Automation -->
+                <div class="service-card" data-service="automation">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 100 100" class="animated-icon">
+                            <rect x="20" y="40" width="15" height="20" class="icon-gear"/>
+                            <rect x="42.5" y="30" width="15" height="40" class="icon-gear"/>
+                            <rect x="65" y="35" width="15" height="30" class="icon-gear"/>
+                            <path d="M10 75 Q50 65 90 75" class="icon-flow"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">AI Automation</h3>
+                    <p class="service-description">
+                        End-to-end process automation powered by AI to eliminate manual tasks 
+                        and optimize operational efficiency.
+                    </p>
+                    <ul class="service-features">
+                        <li>Robotic Process Automation</li>
+                        <li>Workflow Optimization</li>
+                        <li>Intelligent Document Processing</li>
+                        <li>Decision Automation</li>
+                    </ul>
+                    <a href="#automation-details" class="service-link">Learn More</a>
+                </div>
+
+                <!-- Data Analytics -->
+                <div class="service-card" data-service="analytics">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 100 100" class="animated-icon">
+                            <rect x="20" y="60" width="10" height="20" class="icon-bar"/>
+                            <rect x="35" y="45" width="10" height="35" class="icon-bar"/>
+                            <rect x="50" y="30" width="10" height="50" class="icon-bar"/>
+                            <rect x="65" y="40" width="10" height="40" class="icon-bar"/>
+                            <path d="M15 25 Q50 15 85 25" class="icon-trend"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">AI-Powered Analytics</h3>
+                    <p class="service-description">
+                        Transform raw data into actionable insights with advanced analytics 
+                        and real-time business intelligence.
+                    </p>
+                    <ul class="service-features">
+                        <li>Real-time Dashboards</li>
+                        <li>Predictive Insights</li>
+                        <li>Customer Behavior Analysis</li>
+                        <li>Performance Optimization</li>
+                    </ul>
+                    <a href="#analytics-details" class="service-link">Learn More</a>
+                </div>
+
+                <!-- AI Consulting -->
+                <div class="service-card" data-service="consulting">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 100 100" class="animated-icon">
+                            <circle cx="35" cy="35" r="15" class="icon-person"/>
+                            <path d="M20 60 Q35 50 50 60" class="icon-body"/>
+                            <circle cx="65" cy="35" r="15" class="icon-person"/>
+                            <path d="M50 60 Q65 50 80 60" class="icon-body"/>
+                            <path d="M45 25 Q50 20 55 25" class="icon-connection"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">AI Strategy Consulting</h3>
+                    <p class="service-description">
+                        Strategic guidance to identify AI opportunities, develop implementation 
+                        roadmaps, and ensure successful AI adoption.
+                    </p>
+                    <ul class="service-features">
+                        <li>AI Readiness Assessment</li>
+                        <li>Implementation Strategy</li>
+                        <li>Technology Selection</li>
+                        <li>Change Management</li>
+                    </ul>
+                    <a href="#consulting-details" class="service-link">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Process -->
+    <section class="service-process">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Proven AI Development Process</h2>
+                <p class="section-subtitle">
+                    From concept to deployment, we follow a systematic approach to ensure success
+                </p>
+            </div>
+            
+            <div class="process-timeline">
+                <div class="process-step" data-step="1">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Discovery & Analysis</h3>
+                        <p class="step-description">
+                            We analyze your business needs, data infrastructure, and identify 
+                            the best AI opportunities for maximum impact.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="process-step" data-step="2">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Strategy & Planning</h3>
+                        <p class="step-description">
+                            Develop a comprehensive AI strategy with clear timelines, 
+                            milestones, and success metrics.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="process-step" data-step="3">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Development & Training</h3>
+                        <p class="step-description">
+                            Build and train custom AI models using your data with 
+                            state-of-the-art algorithms and techniques.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="process-step" data-step="4">
+                    <div class="step-number">04</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Testing & Validation</h3>
+                        <p class="step-description">
+                            Rigorous testing and validation to ensure accuracy, 
+                            reliability, and performance before deployment.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="process-step" data-step="5">
+                    <div class="step-number">05</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Deployment & Integration</h3>
+                        <p class="step-description">
+                            Seamless integration with your existing systems and 
+                            smooth deployment to production environments.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="process-step" data-step="6">
+                    <div class="step-number">06</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Monitoring & Optimization</h3>
+                        <p class="step-description">
+                            Continuous monitoring, performance optimization, and 
+                            ongoing support to ensure long-term success.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Industries We Serve -->
+    <section class="industries">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Industries We Transform</h2>
+                <p class="section-subtitle">
+                    Delivering AI solutions across diverse sectors with proven expertise
+                </p>
+            </div>
+            
+            <div class="industries-grid">
+                <div class="industry-card">
+                    <div class="industry-icon">🏥</div>
+                    <h3 class="industry-title">Healthcare</h3>
+                    <p class="industry-description">
+                        Medical imaging, drug discovery, patient monitoring, and diagnostic assistance.
+                    </p>
+                </div>
+                
+                <div class="industry-card">
+                    <div class="industry-icon">🏦</div>
+                    <h3 class="industry-title">Finance</h3>
+                    <p class="industry-description">
+                        Fraud detection, algorithmic trading, risk assessment, and customer analytics.
+                    </p>
+                </div>
+                
+                <div class="industry-card">
+                    <div class="industry-icon">🏭</div>
+                    <h3 class="industry-title">Manufacturing</h3>
+                    <p class="industry-description">
+                        Quality control, predictive maintenance, supply chain optimization.
+                    </p>
+                </div>
+                
+                <div class="industry-card">
+                    <div class="industry-icon">🛒</div>
+                    <h3 class="industry-title">Retail</h3>
+                    <p class="industry-description">
+                        Personalization, inventory management, demand forecasting, customer insights.
+                    </p>
+                </div>
+                
+                <div class="industry-card">
+                    <div class="industry-icon">🚗</div>
+                    <h3 class="industry-title">Automotive</h3>
+                    <p class="industry-description">
+                        Autonomous systems, predictive maintenance, smart manufacturing.
+                    </p>
+                </div>
+                
+                <div class="industry-card">
+                    <div class="industry-icon">⚡</div>
+                    <h3 class="industry-title">Energy</h3>
+                    <p class="industry-description">
+                        Smart grid optimization, renewable energy forecasting, efficiency monitoring.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Ready to Transform Your Business with AI?</h2>
+                <p class="cta-subtitle">
+                    Let's discuss how our AI solutions can drive innovation and growth for your organization.
+                </p>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="cta-button primary">Start Your AI Journey</a>
+                    <a href="case-studies.html" class="cta-button secondary">View Success Stories</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>A-Z AI</h3>
+                    <p>Building the future of artificial intelligence, one solution at a time.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="link-group">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="case-studies.html">Case Studies</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="link-group">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="services.html#ml">Machine Learning</a></li>
+                            <li><a href="services.html#nlp">NLP</a></li>
+                            <li><a href="services.html#cv">Computer Vision</a></li>
+                        </ul>
+                    </div>
+                    <div class="link-group">
+                        <h4>Contact</h4>
+                        <ul>
+                            <li><a href="contact.html">Get in Touch</a></li>
+                            <li><a href="#">hello@a-zai.com</a></li>
+                            <li><a href="#">+1 (555) 123-4567</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 A-Z AI. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating CTA Button -->
+    <div class="floating-cta">
+        <a href="contact.html" class="floating-button">
+            <span class="button-text">Book a Call</span>
+            <span class="button-icon">→</span>
+        </a>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="services.js"></script>
+    <script src="analytics.js"></script>
+</body>
+</html>
