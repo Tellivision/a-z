@@ -139,7 +139,9 @@ class TestimonialSlider {
         this.dots = document.querySelectorAll('.nav-dot');
         this.currentSlide = 0;
         this.autoPlayInterval = null;
-        this.init();
+        if (this.slides.length > 0 && this.dots.length > 0) {
+            this.init();
+        }
     }
 
     init() {
