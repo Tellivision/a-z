@@ -336,21 +336,33 @@ class MobileMenu {
     constructor() {
         this.toggle = document.querySelector('.mobile-menu-toggle');
         this.menu = document.querySelector('.nav-menu');
+        this.menuLinks = document.querySelectorAll('.nav-menu .nav-link');
         this.isOpen = false;
         this.init();
     }
 
     init() {
-        if (this.toggle) {
-            this.toggle.addEventListener('click', () => {
-                this.toggleMenu();
+        if (this.toggle && this.menu) {
+            this.toggle.addEventListener('click', this.toggleMenu.bind(this));
+            this.menuLinks.forEach(link => {
+                link.addEventListener('click', () => {
+                    this.closeMenu();
+                });
             });
         }
     }
 
     toggleMenu() {
         this.isOpen = !this.isOpen;
-        
+        this.updateMenuState();
+    }
+
+    closeMenu() {
+        this.isOpen = false;
+        this.updateMenuState();
+    }
+
+    updateMenuState() {
         if (this.isOpen) {
             this.menu.classList.add('active');
             this.toggle.classList.add('active');
