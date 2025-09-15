@@ -234,8 +234,7 @@ p {
 .nav .cta-button.primary {
     position: absolute;
     right: 2rem;
-    top: 50%;
-    transform: translateY(-50%);
+    bottom: 1rem;
     z-index: 1001;
 }
 
