@@ -354,9 +354,11 @@ class MobileMenu {
         if (this.isOpen) {
             this.menu.classList.add('active');
             this.toggle.classList.add('active');
+            document.body.style.overflow = 'hidden';
         } else {
             this.menu.classList.remove('active');
             this.toggle.classList.remove('active');
+            document.body.style.overflow = '';
         }
     }
 }
