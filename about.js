@@ -243,18 +243,8 @@ class MissionVisionAnimation {
     }
 
     setupParallaxEffect() {
-        window.addEventListener('scroll', () => {
-            const scrolled = window.pageYOffset;
-            const rate = scrolled * -0.5;
-            
-            if (this.missionCard) {
-                this.missionCard.style.transform = `translateY(${rate * 0.1}px)`;
-            }
-            
-            if (this.visionCard) {
-                this.visionCard.style.transform = `translateY(${rate * 0.15}px)`;
-            }
-        });
+        // Removed parallax effect that was causing alignment issues
+        // The different translateY values were breaking horizontal alignment
     }
 
     animateCard(card) {
