@@ -213,20 +213,7 @@
     box-shadow: 0 10px 20px rgba(0, 212, 255, 0.4);
 }
 
-/* Specific override for button elements to ensure alignment */
-button.method-link {
-    margin: 0;
-    padding: 0.75rem 1.5rem;
-    vertical-align: middle;
-    display: inline-block;
-    position: static;
-}
-
-/* Wrapper to match anchor positioning */
-.button-wrapper {
-    display: inline-block;
-    margin-top: 0;
-}
+/* All method links now use anchor tags for consistent styling */
 
 /* Contact Form Section */
 .contact-form-section {
