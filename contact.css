@@ -215,11 +215,17 @@
     grid-template-columns: 2fr 1fr;
     gap: 4rem;
     align-items: start;
-    min-height: 100vh;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 
 .form-container {
     position: relative;
+    background: rgba(255, 255, 255, 0.02);
+    border-radius: 20px;
+    padding: 3rem;
+    backdrop-filter: blur(10px);
+    margin-top: 0;
 }
 
 .form-header {
@@ -447,16 +453,15 @@
     flex-direction: column;
     gap: 2rem;
     position: sticky;
-    top: 2rem;
-    height: fit-content;
-    margin-top: 1.5rem;
+    top: 100px;
+    margin-top: 0;
 }
 
 .info-card {
     background: rgba(255, 255, 255, 0.03);
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 16px;
-    padding: 2.5rem;
+    padding: 2rem;
     transition: all 0.3s ease;
 }
 
