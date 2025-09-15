@@ -43,6 +43,14 @@ p {
     margin-bottom: 1rem;
 }
 
+.section-subtitle {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.8);
+}
+
 /* Container */
 .container {
     max-width: 1200px;
