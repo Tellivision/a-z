@@ -352,17 +352,11 @@ class MobileMenu {
         this.isOpen = !this.isOpen;
         
         if (this.isOpen) {
-            this.menu.style.display = 'flex';
-            this.menu.style.flexDirection = 'column';
-            this.menu.style.position = 'absolute';
-            this.menu.style.top = '100%';
-            this.menu.style.left = '0';
-            this.menu.style.right = '0';
-            this.menu.style.background = 'rgba(10, 10, 10, 0.98)';
-            this.menu.style.padding = '2rem';
-            this.menu.style.backdropFilter = 'blur(20px)';
+            this.menu.classList.add('active');
+            this.toggle.classList.add('active');
         } else {
-            this.menu.style.display = 'none';
+            this.menu.classList.remove('active');
+            this.toggle.classList.remove('active');
         }
     }
 }
