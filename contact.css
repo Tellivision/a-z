@@ -216,6 +216,7 @@
 /* Specific override for button elements to ensure alignment */
 button.method-link {
     margin: 0;
+    margin-top: 8px !important;
     padding: 0.75rem 1.5rem;
     vertical-align: top;
     display: inline-block;
