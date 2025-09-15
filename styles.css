@@ -151,6 +151,7 @@ p {
         grid-template-columns: 1fr auto auto;
         padding: 1rem;
         gap: 1rem;
+        position: relative;
     }
     
     .mobile-menu-toggle {
@@ -227,6 +228,10 @@ p {
 
 .nav .cta-button.primary {
     grid-column: 3;
+    position: absolute;
+    right: 2rem;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .nav-link {
